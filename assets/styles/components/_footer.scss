@@ -1,0 +1,39 @@
+.footer{
+
+    &--first{
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+    }
+  
+    &__title{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+       
+    }
+    &__join{
+        margin-left: 185px;
+        margin-top: 25px;
+        
+        span{
+            display: block;
+            
+        }
+    }
+    &__nav{
+        a{       
+         width: 94px;
+         height: 141px;
+         font-weight: 400;
+         font-size: 22px;
+         line-height: 31px;
+         color: #FFFFFF;
+         text-decoration: none;
+        }
+    }
+    &__submit{
+        margin-top: 56px;
+    }
+}
